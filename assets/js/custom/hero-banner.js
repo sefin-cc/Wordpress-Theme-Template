@@ -24,7 +24,7 @@ function animateHeroHeader(header) {
       trigger: header,
       start: 'top 80%',
       toggleActions: 'play none none reverse',
-      markers: true, 
+     
     },
     duration: 1,
     y: 50,

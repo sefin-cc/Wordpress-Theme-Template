@@ -1,0 +1,16 @@
+:root {
+    --wp--style--global--content-size: none !important;
+    --wp--style--global--wide-size: none !important;
+}
+
+.container {
+    // padding: 0 $padding-desktop;
+    padding: 0 100px;
+}
+
+.title_text {
+    font-size: 30px;
+}
+.body_text {
+    font-size: 20px;
+}

@@ -1,11 +1,15 @@
 
 
 //Global
-@import "common";
-@import "variables";
-@import "mixins";
+@import "global/common.scss";
+@import "global/variables.scss";
+@import "global/mixins.scss";
 
+//Others
+@import "header.scss";
+@import "footer.scss";
 
 // Lazyblocks 
 @import "lazyblocks/lazyblock-hero-banner";
+@import "lazyblocks/lazyblock-images";
 

@@ -1,0 +1,17 @@
+.wp-block-lazyblock-images {
+    
+    .my-repeater-block {
+        display: flex;
+        gap: 20px;
+
+        .repeater-item {
+            img {
+                width: 500px;
+                object-fit: cover;
+                border-radius: 10px;
+                height: 200px;
+            }
+        }
+    }
+
+}
