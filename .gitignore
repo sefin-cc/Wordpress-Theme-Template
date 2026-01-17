@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+# Distribution folders
+dist/
+assets/dist/
+
+# Optional: OS or editor files you might want to ignore
+.DS_Store
+Thumbs.db
+*.log

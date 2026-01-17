@@ -22,7 +22,7 @@ if (is_array($image) && isset($image['url'])) {
 }
 ?>
 
-<div class="hero-banner" <?php echo esc_attr(get_block_wrapper_attributes()); ?>>
+<section class="hero-banner" <?php echo esc_attr(get_block_wrapper_attributes()); ?>>
     <?php if ( $title ) : ?>
         <h1 class="hero-banner-header"><?php echo esc_html($title); ?></h1>
     <?php endif; ?>
@@ -34,4 +34,4 @@ if (is_array($image) && isset($image['url'])) {
     <?php if ( $image ) : ?>
         <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
     <?php endif; ?>
-</div>
+</section>
