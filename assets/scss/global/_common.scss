@@ -3,11 +3,18 @@
     --wp--style--global--wide-size: none !important;
 }
 
+:where(.wp-site-blocks) > * {
+    margin-block-start: 0;margin-block-end: 0;}
+    
 .container {
-    // padding: 0 $padding-desktop;
-    padding: 0 100px;
+    padding: 0 $padding-desktop;
 }
 
+h1, h2, h3, li, a, p {
+    font-family: "Poppins";
+}
+
+//Global Text
 .title_text {
     font-size: 30px;
 }

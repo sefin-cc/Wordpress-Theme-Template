@@ -22,18 +22,14 @@ if (is_array($image) && isset($image['url'])) {
 }
 ?>
 
-<div class="container">
+<div class="container" style="background-image: url('<?php echo $image['url']; ?>');">
 
     <?php if ( $title ) : ?>
         <h1 class="hero-banner-header"><?php echo esc_html($title); ?></h1>
     <?php endif; ?>
 
     <?php if ( $paragraph ) : ?>
-        <p><?php echo esc_html($paragraph); ?></p>
-    <?php endif; ?>
-
-    <?php if ( $image ) : ?>
-        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+        <p class="body_text"><?php echo esc_html($paragraph); ?></p>
     <?php endif; ?>
 
 </div>

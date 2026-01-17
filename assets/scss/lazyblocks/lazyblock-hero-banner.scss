@@ -1,8 +1,18 @@
 .wp-block-lazyblock-hero-banner {
     //Insert SCSS here :D
 
-    .hero-banner-header {
-        font-size: 20px;
-        color: peru;
+    .container {
+        padding :  $padding-desktop ;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        .hero-banner-header {
+            font-size: 40px;
+            color: $white;
+        }
+        .body_text {
+            color: $white;
+        }
     }
 }

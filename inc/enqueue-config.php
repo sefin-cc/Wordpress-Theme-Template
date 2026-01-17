@@ -25,6 +25,7 @@ return [
         'families' => [
             'Inter:wght@400;500;600;700',
             'Playfair Display:wght@400;700',
+            'Poppins:wght@300;400;500;600;700'
         ],
         'display' => 'swap' // optional, fallback, block, swap, auto
     ],
